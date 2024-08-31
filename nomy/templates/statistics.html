@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<body>
+    <h3>Nomys per year chart</h3>
+    <img src="data:image/png;base64,{{ graphic_year }}" alt="Nomys per year chart" />
+
+    <h3>Nomys per genre chart</h3>
+    <img src="data:image/png;base64,{{ graphic_genre }}" alt="Nomys per genre chart" />
+</body>
+
+{% endblock content %}
